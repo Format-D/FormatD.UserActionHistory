@@ -1,0 +1,19 @@
+{
+    "name": "formatd/useractionhistory",
+    "description": "A request history for Neos FLow applications.",
+    "type": "neos-package",
+    "license": "MIT",
+    "require": {
+        "neos/flow": ">=4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "FormatD\\UserActionHistory\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "FormatD.UserActionHistory"
+        }
+    }
+}
